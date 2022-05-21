@@ -21,8 +21,8 @@ public class 运势 implements Utils{
     private JsonArray title,text;
     
     public 运势() throws FontFormatException,IOException{
-        微软雅黑 = Font.createFont(Font.TRUETYPE_FONT,运势.class.getResourceAsStream("/assets/font/微软雅黑.ttf"));//.deriveFont(font_title_size);
-        Sakura = Font.createFont(Font.TRUETYPE_FONT,运势.class.getResourceAsStream("/assets/font/Sakura.ttf"));//.deriveFont(font_text_size);
+        微软雅黑 = Font.createFont(Font.TRUETYPE_FONT,运势.class.getResourceAsStream("/assets/font/微软雅黑.ttf")).deriveFont(font_title_size);
+        Sakura = Font.createFont(Font.TRUETYPE_FONT,运势.class.getResourceAsStream("/assets/font/Sakura.ttf")).deriveFont(font_text_size);
         image = ImageIO.read(运势.class.getResourceAsStream("/assets/image/运势/frame_"+(int)(Math.random()*65+1)+".jpg"));
         title_color = Color.decode("#F5F5F5");
         text_color = Color.decode("#323232");

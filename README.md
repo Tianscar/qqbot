@@ -8,4 +8,4 @@ Java版本: 最低为Java8</br>
 ## 配置
 机器人为开箱即用,仅需一个完整的jar即可运行,运行时会检查$HOME/Robot目录是否存在,若不存在则会创建并要求输入基本信息(Mirai的IP,端口,登陆的机器人)
 ## 构建
-此项目为Maven项目,使用mvn assembly:assembly命令构建
+此项目为Maven项目,使用mvn assembly:assembly命令构建。
