@@ -1,7 +1,7 @@
 # QQRobotBaseOnMirai
 1.此机器人遵循AGPL开源协议</br>
 2.此机器人并不是独立的,它基于Mirai</br>
-3.需要配置<a href="https://github.com/iTXTech/mirai-console-loader">MiraiConsoleLoader</a>
+3.需要配置<a href="https://github.com/iTXTech/mirai-console-loader">MiraiConsoleLoader</a>,<a href="https://github.com/project-mirai/mirai-api-http">mirai-api-http</a>
 ## 基本信息
 运行环境: 机器人目前仅能运行在Linux(或者安卓设置配置proot环境的Linux)</br>
 Java版本: 最低为Java8</br>

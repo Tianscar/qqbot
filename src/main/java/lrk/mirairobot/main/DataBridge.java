@@ -64,9 +64,10 @@ public class DataBridge
 		if(Robot_Properties.get("OS")==null){
 			Robot_Properties.put("OS",OS);
 		}
-		initRobotProp("Port","Set OPQBot's IP address and Port(example:0.0.0.0:8888):","Port not set.");
-		initRobotProp("QQ","Set your Robot's QQ number:","Robot's QQ not set.");
-		initRobotProp("Mode","Set your Robot's Notification Mode(QUIET,NORMAL,NO_LOG_SAVE):","Wrong Option.");
+		initRobotProp("Port","设置MiraiConsoleLoader的IP和端口(例:0.0.0.0:8888):","未设置");
+		initRobotProp("QQ","设置已登陆在MiralConsoleLoader上的QQ机器人账号:","未设置");
+		initRobotProp("Mode","设置机器人的日志等级(QUIET,NORMAL,NO_LOG_SAVE):","错误的设置");
+		initRobotProp("MiraiApiHttpVerifyKey","设置mirai-api-http的连接验证密钥(请确保您在安装此插件后已修改miari-api-http的配置文件):","未设置");
         //准备sql数据库,在此处预调试
         Class.forName("lrk.mirairobot.main.SQLData");
         SQLData a = new SQLData();
