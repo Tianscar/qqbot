@@ -1,4 +1,4 @@
-package lrk.mirairobot.data;
+package lrk.mirairobot.core.data;
 
 public enum MessageFromType {
 	FriendMessage,//好友消息

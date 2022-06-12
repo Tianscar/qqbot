@@ -1,4 +1,4 @@
-package lrk.mirairobot.data.messagetype;
+package lrk.mirairobot.core.data.messagetype;
 //@全体成员
 import com.google.gson.*;
 

@@ -1,8 +1,8 @@
-package lrk.mirairobot.event;
+package lrk.mirairobot.core.event;
 
 import lrk.mirairobot.core.BotCore;
-import lrk.mirairobot.data.*;
-import lrk.mirairobot.data.messagetype.*;
+import lrk.mirairobot.core.data.*;
+import lrk.mirairobot.core.data.messagetype.*;
 import lrk.mirairobot.utils.MessageUtils;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

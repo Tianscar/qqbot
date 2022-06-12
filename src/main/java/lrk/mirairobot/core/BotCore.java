@@ -6,10 +6,10 @@ import java.util.*;
 import java.lang.reflect.*;
 import com.google.gson.*;
 import java.nio.charset.*;
-import lrk.mirairobot.event.*;
-import lrk.mirairobot.listener.*;
+import lrk.mirairobot.core.event.*;
+import lrk.mirairobot.core.listener.*;
 import lrk.mirairobot.main.*;
-import lrk.mirairobot.data.*;
+import lrk.mirairobot.core.data.*;
 
 public class BotCore{
 

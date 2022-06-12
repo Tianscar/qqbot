@@ -1,4 +1,4 @@
-package lrk.mirairobot.data.messagetype;
+package lrk.mirairobot.core.data.messagetype;
 //应用消息(轻视频等)
 import com.google.gson.*;
 

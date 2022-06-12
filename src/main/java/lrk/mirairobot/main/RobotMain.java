@@ -1,9 +1,9 @@
 package lrk.mirairobot.main;
 
-import lrk.mirairobot.event.*;
-import lrk.mirairobot.listener.*;
+import lrk.mirairobot.core.event.*;
+import lrk.mirairobot.core.listener.*;
 import lrk.mirairobot.utils.*;
-import lrk.mirairobot.data.*;
+import lrk.mirairobot.core.data.*;
 import lrk.mirairobot.main.threads.GroupMessageThread;
 import lrk.mirairobot.main.threads.FriendMessageThread;
 import lrk.mirairobot.main.RobotNotification;

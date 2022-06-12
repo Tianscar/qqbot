@@ -1,4 +1,4 @@
-package lrk.mirairobot.event;
+package lrk.mirairobot.core.event;
 
 import lrk.mirairobot.core.BotCore;
 import com.google.gson.JsonObject;

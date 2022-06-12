@@ -1,4 +1,4 @@
-package lrk.mirairobot.data;
+package lrk.mirairobot.core.data;
 
 public enum MessageType {
    Source,//消息的时间,ID等信息

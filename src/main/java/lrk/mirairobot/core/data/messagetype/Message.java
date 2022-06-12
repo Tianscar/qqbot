@@ -1,4 +1,4 @@
-package lrk.mirairobot.data.messagetype;
+package lrk.mirairobot.core.data.messagetype;
 import com.google.gson.*;
 
 public abstract class Message{

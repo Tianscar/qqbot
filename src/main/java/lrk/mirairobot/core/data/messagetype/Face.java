@@ -1,4 +1,4 @@
-package lrk.mirairobot.data.messagetype;
+package lrk.mirairobot.core.data.messagetype;
 //表情消息
 import com.google.gson.*;
 

@@ -1,10 +1,10 @@
 package lrk.mirairobot.main.threads;
 
 import lrk.mirairobot.core.*;
-import lrk.mirairobot.data.*;
-import lrk.mirairobot.data.messagetype.*;
+import lrk.mirairobot.core.data.*;
+import lrk.mirairobot.core.data.messagetype.*;
 import lrk.mirairobot.utils.*;
-import lrk.mirairobot.event.*;
+import lrk.mirairobot.core.event.*;
 import lrk.mirairobot.main.threads.RobotThread;
 
 import java.lang.*;
